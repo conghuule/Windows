@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\chemistry.jpg" />
+    <None Remove="Images\lake.jpg" />
+    <None Remove="Images\map.jpg" />
+    <None Remove="Images\news.jpg" />
+    <None Remove="Images\paper.jpg" />
+    <None Remove="Images\people.jpg" />
+    <None Remove="Images\success.jpg" />
+    <None Remove="Images\teacher.jpg" />
+    <None Remove="Images\television.jpg" />
+    <None Remove="Images\wood.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\chemistry.jpg" />
+    <Resource Include="Images\success.jpg" />
+    <Resource Include="Images\lake.jpg" />
+    <Resource Include="Images\map.jpg" />
+    <Resource Include="Images\news.jpg" />
+    <Resource Include="Images\paper.jpg" />
+    <Resource Include="Images\people.jpg" />
+    <Resource Include="Images\teacher.jpg" />
+    <Resource Include="Images\television.jpg" />
+    <Resource Include="Images\wood.jpg" />
+  </ItemGroup>
+
+</Project>

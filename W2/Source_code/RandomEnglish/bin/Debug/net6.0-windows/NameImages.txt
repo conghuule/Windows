@@ -1,0 +1,11 @@
+10
+/Images/map.jpg
+/Images/people.jpg
+/Images/television.jpg
+/Images/paper.jpg
+/Images/news.jpg
+/Images/teacher.jpg
+/Images/chemistry.jpg
+/Images/success.jpg
+/Images/wood.jpg
+/Images/lake.jpg

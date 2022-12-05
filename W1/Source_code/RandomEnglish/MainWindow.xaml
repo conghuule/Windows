@@ -1,0 +1,16 @@
+﻿<Window x:Class="RandomEnglish.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomEnglish"
+        mc:Ignorable="d"
+        Title="RandomEnglish" Height="600" Width="600" Loaded="Window_Loaded">
+    <Canvas>
+        <Image Name="labelImage" Source="/Images/teacher.jpg" Width="600" Height="350" Canvas.Left="0" Canvas.Top="10" />
+        <Label Name="labelLabel" Content="Hello" Canvas.Left="0" Canvas.Top="365" HorizontalAlignment="Center" Width="600" Height="42" FontSize="22" FontWeight="Bold" HorizontalContentAlignment="Center">
+
+        </Label>
+        <Button x:Name="helloButton" Click="helloButton_Click" Content="Next" Width="120" Height="35" Canvas.Left="240" Canvas.Top="450" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+    </Canvas>
+</Window>
