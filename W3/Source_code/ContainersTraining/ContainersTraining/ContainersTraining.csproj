@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\account.png" />
+    <None Remove="Image\avatar.png" />
+    <None Remove="Image\devices.png" />
+    <None Remove="Image\Ease of Access.png" />
+    <None Remove="Image\feature_list.png" />
+    <None Remove="Image\gaming.png" />
+    <None Remove="Image\laptop.png" />
+    <None Remove="Image\lock.png" />
+    <None Remove="Image\personalization.png" />
+    <None Remove="Image\phone.png" />
+    <None Remove="Image\search.png" />
+    <None Remove="Image\search1.png" />
+    <None Remove="Image\smartphone-call.png" />
+    <None Remove="Image\time and language.png" />
+    <None Remove="Image\update.png" />
+    <None Remove="Image\user.png" />
+    <None Remove="Image\website.png" />
+    <None Remove="user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\account.png" />
+    <Resource Include="Image\avatar.png" />
+    <Resource Include="Image\devices.png" />
+    <Resource Include="Image\Ease of Access.png" />
+    <Resource Include="Image\feature_list.png" />
+    <Resource Include="Image\gaming.png" />
+    <Resource Include="Image\laptop.png" />
+    <Resource Include="Image\lock.png" />
+    <Resource Include="Image\personalization.png" />
+    <Resource Include="Image\phone.png" />
+    <Resource Include="Image\search.png" />
+    <Resource Include="Image\search1.png" />
+    <Resource Include="Image\smartphone-call.png" />
+    <Resource Include="Image\time and language.png" />
+    <Resource Include="Image\update.png" />
+    <Resource Include="Image\website.png" />
+  </ItemGroup>
+
+</Project>
